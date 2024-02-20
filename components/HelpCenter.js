@@ -36,17 +36,17 @@ const HelpCenter = () => {
 
 
 
-            <View style={{ flexDirection: 'row', marginTop: 40, justifyContent: 'space-between', marginHorizontal: 15 }}>
+            <View style={{ flexDirection: 'row', marginTop: 40, justifyContent: 'space-between', marginHorizontal: 3 }}>
 
-                <View style={{ backgroundColor: '#D7DBDD', width: 160, height: 170, borderRadius: 10, justifyContent: 'center', paddingLeft: 10 }}>
+                <View style={{ backgroundColor: '#D7DBDD', width: 200, height: 170, borderRadius: 10, justifyContent: 'center', paddingLeft: 10 }}>
                     <View style={{ width: 50, height: 50, backgroundColor: 'white', alignItems: 'center', justifyContent: 'center', borderRadius: 40 }}>
                         <Image source={require('../assets/Icons/Email-Bulk.png')} />
                     </View>
                     <View style={{ marginTop: 16 }}>
-                        <Text style={{ fontSize: 17, color: 'black', fontWeight: '700' }}>
+                        <Text style={{ fontSize: 17, color: 'black', fontWeight: '600' }}>
                             Email
                         </Text>
-                        <Text style={{ fontSize: 16, color: 'grey' }}>
+                        <Text style={{ fontSize: 14, color: 'grey' }}>
                             muaazahmad001@gmail.com
                         </Text>
                     </View>
@@ -54,16 +54,16 @@ const HelpCenter = () => {
 
 
                 </View>
-                <View style={{ backgroundColor: '#D7DBDD', width: 160, height: 170, borderRadius: 10, justifyContent: 'center', paddingLeft: 10 }}>
+                <View style={{ backgroundColor: '#D7DBDD', width: 200, height: 170, borderRadius: 10, justifyContent: 'center', paddingLeft: 10 }}>
                     <View style={{ width: 50, height: 50, backgroundColor: 'white', alignItems: 'center', justifyContent: 'center', borderRadius: 40 }}>
                         <Image source={require('../assets/Icons/CallFill.png')} />
                     </View>
 
                     <View style={{ marginTop: 16 }}>
-                        <Text style={{ fontSize: 17, color: 'black', fontWeight: '700' }}>
+                        <Text style={{ fontSize: 17, color: 'black', fontWeight: '600' }}>
                             Phone Number
                         </Text>
-                        <Text style={{ fontSize: 16, color: 'grey' }}>
+                        <Text style={{ fontSize: 14, color: 'grey' }}>
                             +92 333 4246144
                         </Text>
                     </View>
