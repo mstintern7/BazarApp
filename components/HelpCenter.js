@@ -15,7 +15,7 @@ const HelpCenter = () => {
                     <Image source={require("../assets/Icons/Arrow_Left.png")} style={{ tintColor: 'black' }} />
                 </TouchableOpacity>
                 <View style={{ marginHorizontal: 80 }}>
-                    <Text style={{ fontSize: 21, color: 'black', fontWeight: '700' }}>Order History</Text>
+                    <Text style={{ fontSize: 21, color: 'black', fontWeight: '700' }}>Help Center</Text>
                 </View>
             </View>
 
