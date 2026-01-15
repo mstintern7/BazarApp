@@ -17,6 +17,7 @@ npm run start
 
 # OR using Yarn
 yarn start
+yarn run start
 ```
 
 
